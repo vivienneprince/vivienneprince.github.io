@@ -31,4 +31,4 @@
 
 
 ---
-###### vivienne prince 2021 - <a href="https://github.com/orderedlist">theme</a> - <a href="https://github.com/evanca/quick-portfolio">template</a>
+###### vivienne prince 2021 - <a href="mailto:vivie.prince@gmail.com">contact</a> - <a href="https://github.com/orderedlist">theme</a> - <a href="https://github.com/evanca/quick-portfolio">template</a>
