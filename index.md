@@ -3,23 +3,23 @@
 ---
 
 [Optimization Algorithms Demo](/proj-page-optimization-demo)    
-
+  
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Reddit Cryptocurrency Sentiment Analysis](/proj-page-crypto)    
-
+  
 <img src="images/cryptograph1.jpeg?raw=true"/> 
 
 ---
-[Network Algorithms Demo](http://example.com/)  
-
+[Network Algorithms Demo](http://example.com/)    
+  
 <img src="images/dummy_thumbnail.jpg?raw=true"/> 
 
 ---
 
-[Exploring Video Game Sales Data](/proj-page-videogames)    
-
+[Exploring Video Game Sales Data](/proj-page-videogames)      
+  
 <img src="images/video-games-cover.png?raw=true"/>
 
 ---
