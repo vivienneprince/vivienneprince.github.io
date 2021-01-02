@@ -2,11 +2,11 @@
 
 ---
 
-[Project 1 Title](/proj-page-crypto)
+[Exploring Video Game Sales Data](/proj-page-videogames)  
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Reddit Cryptocurrency Sentiment Analysis](/proj-page-crypto)  
 <img src="images/cryptograph1.jpeg?raw=true"/>
 
 ---
