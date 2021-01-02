@@ -2,14 +2,12 @@
 
 ---
 
-### Category Name 1 
-
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+<img src="images/cryptograph1.jpeg?raw=true"/>
 
 ---
 [Project 3 Title](http://example.com/)
@@ -17,7 +15,7 @@
 
 ---
 
-### Category Name 2
+### Other projects
 
 - [Project 1 Title](http://example.com/)
 - [Project 2 Title](http://example.com/)
@@ -31,4 +29,4 @@
 merp
 
 ---
-###### <span style="font-weight:normal">Viv Prince 2021 - <a href="mailto:vivie.prince@gmail.com">contact</a> - <a href="https://github.com/orderedlist">theme</a> - <a href="https://github.com/evanca/quick-portfolio">template</a></span> 
+##### <span style="font-weight:normal">Viv Prince 2021 - <a href="mailto:vivie.prince@gmail.com">contact</a> - <a href="https://github.com/orderedlist">theme</a> - <a href="https://github.com/evanca/quick-portfolio">template</a></span> 
