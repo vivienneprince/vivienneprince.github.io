@@ -12,6 +12,16 @@
     <![endif]-->
 
     <style>
+        .spinner-wrapper {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ff6347;
+            z-index: 999999;
+        }
+
         .spinner {
             width: 40px;
             height: 40px;
@@ -65,9 +75,11 @@
 <body style="background-color:#f6f8fa;">
 
 <!--preloader animation-->
-<div class="spinner">
-    <div class="double-bounce1"></div>
-    <div class="double-bounce2"></div>
+<div class="spinner-wrapper">
+    <div class="spinner">
+        <div class="double-bounce1"></div>
+        <div class="double-bounce2"></div>
+    </div>
 </div>
 
 
@@ -135,11 +147,11 @@
         preloaderFadeOutTime = 500;
 
         function hidePreloader() {
-                var wrapper = jQuery('.spinner-wrapper');
-                var spinner = jQuery('.spinner');
-                wrapper.fadeOut(preloaderFadeOutTime);
-                spinner.fadeOut(preloaderFadeOutTime);
-            }
+            var wrapper = jQuery('.spinner-wrapper');
+            var spinner = jQuery('.spinner');
+            wrapper.fadeOut(preloaderFadeOutTime);
+            spinner.fadeOut(preloaderFadeOutTime);
+        }
 
         hidePreloader();
     });
