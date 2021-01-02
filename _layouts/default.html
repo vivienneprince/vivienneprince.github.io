@@ -77,25 +77,11 @@
 <body style="background-color:#f6f8fa;">
 
 <!--preloader animation-->
+<!--CSS Spinner-->
 <div class="spinner-wrapper">
-    <div class="spinner">
-        <div class="double-bounce1"></div>
-        <div class="double-bounce2"></div>
-    </div>
+    <div class="spinner"></div>
 </div>
-<!--preloader fade-->
-<script>
-    jQuery(document).ready(function() {
-        preloaderFadeOutTime = 500;
 
-        function hidePreloader() {
-            var preloader = $('.spinner-wrapper');
-            preloader.fadeOut(preloaderFadeOutTime);
-        }
-
-        hidePreloader();
-    });
-</script>
 
 <div class="wrapper">
     <header>
@@ -154,7 +140,20 @@
 {% endif %}
 
 
+<!--preloader fade-->
+<script>
+    $(document).ready(function () {
+//Preloader
+        preloaderFadeOutTime = 500;
 
+        function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            preloader.fadeOut(preloaderFadeOutTime);
+        }
+
+        hidePreloader();
+    });
+</script>
 
 </body>
 </html>
