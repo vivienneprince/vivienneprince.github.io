@@ -11,22 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
 
-    <script>
-        jQuery(document).ready(function() {
-            //Preloader
-            jQuery(window).on("load", function() {
-            preloaderFadeOutTime = 500;
-            function hidePreloader() {
-                var wrapper = jQuery('.spinner-wrapper');
-                var spinner = jQuery('.spinner');
-                wrapper.fadeOut(preloaderFadeOutTime);
-                spinner.fadeOut(preloaderFadeOutTime);
-            }
-            hidePreloader();
-            });
-        });
 
-    </script>
+<!--preloader styles-->
     <style>
         .spinner-wrapper {
             position: fixed;
@@ -97,6 +83,20 @@
         <div class="double-bounce2"></div>
     </div>
 </div>
+<!--preloader fade-->
+<script>
+    $(document).ready(function () {
+//Preloader
+        preloaderFadeOutTime = 500;
+
+        function hidePreloader() {
+            var preloader = $('.spinner-wrapper');
+            preloader.fadeOut(preloaderFadeOutTime);
+        }
+
+        hidePreloader();
+    });
+</script>
 
 <div class="wrapper">
     <header>
