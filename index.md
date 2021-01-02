@@ -2,25 +2,21 @@
 
 ---
 
-[Optimization Algorithms Demo](/proj-page-optimization-demo)    
-  
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Optimization Algorithms Demo](/proj-page-optimization-demo)  
+<span style="line-height: 40px"> <img src="images/dummy_thumbnail.jpg?raw=true"/> </span>
 
 ---
-[Reddit Cryptocurrency Sentiment Analysis](/proj-page-crypto)    
-  
-<img src="images/cryptograph1.jpeg?raw=true"/> 
+[Reddit Cryptocurrency Sentiment Analysis](/proj-page-crypto)  
+<span style="line-height: 40px"> <img src="images/cryptograph1.jpeg?raw=true"/>  </span>
 
 ---
 [Network Algorithms Demo](http://example.com/)    
-  
-<img src="images/dummy_thumbnail.jpg?raw=true"/> 
+<span style="line-height: 40px"> <img src="images/dummy_thumbnail.jpg?raw=true"/>  </span>
 
 ---
 
 [Exploring Video Game Sales Data](/proj-page-videogames)      
-  
-<img src="images/video-games-cover.png?raw=true"/>
+<span style="line-height: 40px"> <img src="images/video-games-cover.png?raw=true"/> </span>
 
 ---
 ### Other projects
