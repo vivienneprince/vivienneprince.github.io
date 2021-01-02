@@ -1,5 +1,5 @@
-<span style="font-size:180%; line-height: 32px;"> Reddit Cryptocurrency Historical Sentiment vs Price  </span>  <br>
-<span style="color:darkgrey; padding: 1px 0px;">November 2020 &nbsp;&ndash;&nbsp; with Kalani Stanton and Tim McCormack</span>
+<span style="font-weight: bold; color: black; font-size:180%; line-height: 32px;"> Reddit Cryptocurrency Historical Sentiment vs Price  </span>  <br>
+<span style="color:darkgrey;">November 2020 &nbsp;&ndash;&nbsp; with Kalani Stanton and Tim McCormack</span>
 
 
 **Overview:**   
