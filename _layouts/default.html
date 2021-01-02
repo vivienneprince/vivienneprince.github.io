@@ -12,63 +12,10 @@
     <![endif]-->
 
 
-<!--preloader styles-->
-    <style>
-        .spinner-wrapper {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background-color: #f6f8fa;
-            z-index: 999999;
-        }
-
-        .spinner {
-            width: 40px;
-            height: 40px;
-            position: absolute;
-            top: 48%;
-            left: 48%;
-            background-color: #333333;
-
-            border-radius: 100%;
-            -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
-            animation: sk-scaleout 1.0s infinite ease-in-out;
-        }
-
-        @-webkit-keyframes sk-scaleout {
-            0% {
-                -webkit-transform: scale(0)
-            }
-            100% {
-                -webkit-transform: scale(1.0);
-                opacity: 0;
-            }
-        }
-
-        @keyframes sk-scaleout {
-            0% {
-                -webkit-transform: scale(0);
-                transform: scale(0);
-            }
-            100% {
-                -webkit-transform: scale(1.0);
-                transform: scale(1.0);
-                opacity: 0;
-            }
-        }
-    </style>
-
 </head>
 
 <body style="background-color:#f6f8fa;">
 
-<!--preloader animation-->
-<!--CSS Spinner-->
-<div class="spinner-wrapper">
-    <div class="spinner"></div>
-</div>
 
 
 <div class="wrapper">
@@ -128,21 +75,7 @@
 {% endif %}
 
 
-<!--preloader fade-->
-<script>
-    $(document).ready(function () {
-        preloaderFadeOutTime = 500;
 
-        function hidePreloader() {
-            var wrapper = $('.spinner-wrapper');
-            var spinner = $('.spinner');
-            wrapper.fadeOut(preloaderFadeOutTime);
-            spinner.fadeOut(preloaderFadeOutTime);
-        }
-
-        hidePreloader();
-    });
-</script>
 
 </body>
 </html>
