@@ -131,12 +131,13 @@
 <!--preloader fade-->
 <script>
     $(document).ready(function () {
-//Preloader
         preloaderFadeOutTime = 500;
 
         function hidePreloader() {
-            var preloader = $('.spinner-wrapper');
-            preloader.fadeOut(preloaderFadeOutTime);
+            var wrapper = $('.spinner-wrapper');
+            var spinner = $('.spinner');
+            wrapper.fadeOut(preloaderFadeOutTime);
+            spinner.fadeOut(preloaderFadeOutTime);
         }
 
         hidePreloader();
