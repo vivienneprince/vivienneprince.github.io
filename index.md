@@ -2,7 +2,7 @@
 
 ---
 
-[Exploring Video Game Sales Data](/proj-page-videogames)  
+[Optimization Algorithms Demo](/proj-page-optimization-demo)  
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
@@ -10,18 +10,23 @@
 <img src="images/cryptograph1.jpeg?raw=true"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Network Algorithms Demo](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
 
+[Exploring Video Game Sales Data](/proj-page-videogames)  
+<img src="images/video-games-cover.png?raw=true"/>
+
+---
 ### Other projects
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [College Scorecard EDA Project](http://example.com/)
+- [Flow Networks and Airline Routes](http://example.com/)
+- [World Bank Country Indicators Summary Dashboard](http://example.com/)
+- [Mint Yearly Finances Summary Dashboard (in progress)](http://example.com/)
+- [Phillips Smart Bulbs Scheduling App (in progress)](http://example.com/)
+
 
 ---
 
