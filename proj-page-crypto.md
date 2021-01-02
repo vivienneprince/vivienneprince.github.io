@@ -3,8 +3,18 @@
 
 
 **Overview:**   
-This project used user post and comment data from Reddit's two most popular crypo subreddits. We explored change in average sentiment over time for BTC, ETH, LTC, and XRP (ripple) in context with the currencies' value.  
+We used user post and comment data from Reddit's two most popular crypo subreddits to explore change in average sentiment over time for BTC, ETH, LTC, and XRP (ripple) in context with the currencies' value.  
 
+**Tools:**  
+<span style="color:grey">Python Reddit API Wrapper:</span> pull reddit comment data  
+Tidyverse/ Tidytext: [NLP] tokenization and sentiment analysis  
+Quandl: pull coin price history  
+ggplot/ plotly: viz
+
+
+For full details see our [git repo](https://github.com/vivienneprince/MungingProj2) :-)
+
+*Language used: R/ Markdown*
 
 <br>  
 
@@ -89,6 +99,8 @@ get_graph <- function(coin, coeff) {   # coin = "COIN_NAME", coeff = Value used 
   Coin_Daily_Price.plot
   Coin_Daily_Price.plotly
 
+}
+
 get_graph("BTC", 4)
 get_graph("ETH",20)
 get_graph("LTC", 19)
@@ -96,4 +108,4 @@ get_graph("XRP", 8000)
 
 ```
 
-For more details see our [git repo](https://github.com/vivienneprince/MungingProj2)!
+

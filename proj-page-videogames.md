@@ -1,15 +1,19 @@
-<span style="font-weight: bold; color: black; font-size:180%; line-height: 32px;"> Reddit Cryptocurrency Historical Sentiment vs Price  </span>  <br>
-<span style="color:darkgrey;">November 2020 &nbsp;&ndash;&nbsp; with Kalani Stanton and Tim McCormack</span>
+<span style="font-weight: bold; color: black; font-size:180%; line-height: 32px;">Video Game Sales Data Analysis  </span>  <br>
+<span style="color:darkgrey;">December 2020 &nbsp;&ndash;&nbsp; with Amanda Norton and Ben Weisman</span>
 
 
 **Overview:**   
-This project used user post and comment data from Reddit's two most popular crypo subreddits. We explored change in average sentiment over time for BTC, ETH, LTC, and XRP (ripple) in context with the currencies' value.  
+As video game fans, we decided to take a look at the relationship between video game sales and various variables such as critic/ user ratings, game genre, target audience, and the like.  
+We also were intrested in the distribution of these variables in our video game dataset pulled from VGChartz (video game data tracking website).
+
+To check out our full findings, take a look at our [presentation (pdf)](/docs/presentation-video-game-sales.pdf).  
+Data cleaning/ viz code [link (github)](https://github.com/vivienneprince/VideoGameSales).
 
 
 <br>  
 
 
-This is a time series sentiment vs price data visualization I put together for our project:  
+Here are a couple :  
 
 <img src="images/cryptograph1.jpeg?raw=true"/>  
 
