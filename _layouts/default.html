@@ -81,7 +81,22 @@
         <div class="double-bounce2"></div>
     </div>
 </div>
+<script>
+    $(document).ready(function () {
 
+        //Preloader
+        preloaderFadeOutTime = 500;
+
+        function hidePreloader() {
+            var wrapper = jQuery('.spinner-wrapper');
+            var spinner = jQuery('.spinner');
+            wrapper.fadeOut(preloaderFadeOutTime);
+            spinner.fadeOut(preloaderFadeOutTime);
+        }
+
+        hidePreloader();
+    });
+</script>
 
 <div class="wrapper">
     <header>
@@ -140,22 +155,7 @@
 {% endif %}
 
 
-<script>
-    $(document).ready(function () {
 
-        //Preloader
-        preloaderFadeOutTime = 500;
-
-        function hidePreloader() {
-            var wrapper = jQuery('.spinner-wrapper');
-            var spinner = jQuery('.spinner');
-            wrapper.fadeOut(preloaderFadeOutTime);
-            spinner.fadeOut(preloaderFadeOutTime);
-        }
-
-        hidePreloader();
-    });
-</script>
 
 </body>
 </html>
