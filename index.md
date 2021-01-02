@@ -2,7 +2,7 @@
 
 ---
 
-[Project 1 Title](/proj-page-crypto.md)
+[Project 1 Title](/proj-page-crypto)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
