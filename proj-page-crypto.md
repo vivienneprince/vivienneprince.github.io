@@ -9,11 +9,10 @@ This project used user post and comment data from Reddit's two most popular cryp
 <br>  
 
 
-**Visualizing average reddit sentiment in context of price fluctuations over time**  
+This is a time series sentiment vs price data visualization I put together for our project:  
 
 <img src="images/cryptograph1.jpeg?raw=true"/>  
 
-This is a sample time series sentiment vs price data visualization I put together for our project.  
 
 My code:  
 
