@@ -1,15 +1,21 @@
-## Reddit Cryptocurrency Historical Sentiment vs Price
-###### <span style="font-weight:normal">November 2020</span>
+<span style="font-size:180%; line-height: 32px;"> Reddit Cryptocurrency Historical Sentiment vs Price  </span>  <br>
+<span style="color:darkgrey; padding: 1px 0px;">November 2020 &nbsp;&ndash;&nbsp; with Kalani Stanton and Tim McCormack</span>
+
 
 **Overview:**   
 This project used user post and comment data from Reddit's two most popular crypo subreddits. We explored change in average sentiment over time for BTC, ETH, LTC, and XRP (ripple) in context with the currencies' value.  
+
+
 <br>  
 
 
-### Visualizing average reddit sentiment in context of price fluctuations over time:
+**Visualizing average reddit sentiment in context of price fluctuations over time**  
+
 <img src="images/cryptograph1.jpeg?raw=true"/>  
 
-This is the 
+This is a sample time series sentiment vs price data visualization I put together for our project.  
+
+My code:  
 
 ```R
 # function for getting Coin Price/ Sentiment vs Time graph by coin 
