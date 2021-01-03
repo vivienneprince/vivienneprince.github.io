@@ -5,19 +5,19 @@ Portfolio hosted on github pages I made to display some of my projects and code.
 Feel free to use this as a template, and feel free to give me a shout if you run into any issues.
 
 
-### Template usage info. 
->vivienneprince.github.io  
->>**index.md** project summary for launchpage (markdown format)
->>**\_config.yml** metadata/ customizable variables that gets used in HTML source code
->>\_layouts/default.html  
->>>**default.html** HTML source code   
->>>**custom_styles.css** Add your custom CSS styling here. May not always work with github pages.  
->>>**preloader.html** \[junk] Preloader scratch code 
->>
->>**docs** folder for docs you want on your site
->>**images** folder for images you want on your site
->>**pages** folder for extra mkd pages
-
+### Template usage info.   
+>vivienneprince.github.io    
+>>**index.md** project summary for launchpage (markdown format)  
+>>**\_config.yml** metadata/ customizable variables that gets used in HTML source code  
+>>\_layouts/default.html    
+>>>**default.html** HTML source code     
+>>>**custom_styles.css** Add your custom CSS styling here. May not always work with github pages.    
+>>>**preloader.html** \[junk] Preloader scratch code   
+>>  
+>>**docs** folder for docs you want on your site  
+>>**images** folder for images you want on your site  
+>>**pages** folder for extra mkd pages  
+  
 ___
 
 ### References
