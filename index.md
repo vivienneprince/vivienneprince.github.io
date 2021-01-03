@@ -23,7 +23,7 @@
 
 ---
 [College Scorecard EDA Project](/proj-page-scorecard)  
-<img style="padding-top: 10px" src="images/scorecard-map2.gif?raw=true"/>
+<img style="padding-top: 10px" src="images/scorecard-map3.gif?raw=true"/>
  
 
 ---
