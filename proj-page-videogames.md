@@ -23,7 +23,7 @@ These are some visualizations I created for our presentation:
 
 <img src="images/video-games-dashboard.png?raw=true"/>    
 
-<br></br>
+<br>
 Here's a test plot I did during EDA and my code:  
 
 <img src="images/video-games-test-plot.png?raw=true"/>  

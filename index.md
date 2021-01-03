@@ -7,8 +7,8 @@
   
 
 ---
-[Reddit Cryptocurrency Sentiment Analysis](/proj-page-crypto)  
-<img style="padding-top: 10px" src="images/cryptograph1.png?raw=true"/>
+[Exploring Video Game Sales Data](/proj-page-videogames)      
+<img style="padding-top: 10px" src="images/video-games-dashboard.png?raw=true"/>
   
 
 ---
@@ -17,9 +17,9 @@
   
 
 ---
-[Exploring Video Game Sales Data](/proj-page-videogames)      
-<img style="padding-top: 10px" src="images/video-games-dashboard.png?raw=true"/>
-  
+[Reddit Cryptocurrency Sentiment Analysis](/proj-page-crypto)  
+<img style="padding-top: 10px" src="images/cryptograph1.png?raw=true"/>
+ 
 
 ---
 ### Other projects
