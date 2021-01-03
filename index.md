@@ -13,7 +13,7 @@
 
 ---
 [**Network Algorithms Demo**](/proj-page-networks-demo)    
-[<img style="padding-top: 10px" src="images/dummy_thumbnail.jpg?raw=true"/>](/proj-page-networks-demo)
+[<img style="padding-top: 10px" src="images/network-demo-dashboard.png?raw=true"/>](/proj-page-networks-demo)
   
 
 ---

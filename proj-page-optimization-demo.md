@@ -8,7 +8,7 @@ This google colab sheet demonstrates steepest decent algorithms using numeric ap
 
 **Tools:**  
 <span style="color:grey">Numpy:</span> matrix operations  
-<span style="color:grey">Matplotlib:</span> [NLP] viz  
+<span style="color:grey">Matplotlib:</span> viz  
 
 *Language used: Python*
 
@@ -95,5 +95,3 @@ for x_0 in range(-5, 6):
         y_0_list.append(y_0)
         print("steps =", steps, "  start: (", x_0, y_0, ")")
 ```
-
-For more details see our [git repo](https://github.com/vivienneprince/MungingProj2)!
