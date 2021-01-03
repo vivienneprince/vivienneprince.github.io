@@ -22,13 +22,17 @@
  
 
 ---
+[College Scorecard EDA Project](/proj-page-scorecard)  
+<img style="padding-top: 10px" src="images/scorecard-map.gif?raw=true"/>
+ 
+
+---
 ### Other projects
 
-- [College Scorecard EDA Project](http://example.com/)
-- [Flow Networks and Airline Routes](http://example.com/)
-- [World Bank Country Indicators Summary Dashboard](http://example.com/)
-- [Mint Yearly Finances Summary Dashboard (in progress)](http://example.com/)
-- [Phillips Smart Bulbs Scheduling App (in progress)](http://example.com/)
+- [Flow Networks and Airline Routes](https://github.com/vivienneprince/FlowNetworksAndAirlines)
+- [World Bank Country Indicators Summary Dashboard](https://github.com/vivienneprince/DataStorage2017)
+- [Mint Yearly Finances Summary Dashboard *(in progress)*](https://github.com/vivienneprince/MintYearlyFinancesSummary)
+- Phillips Smart Bulbs Scheduling App *(in progress)*
 
 
 ---
