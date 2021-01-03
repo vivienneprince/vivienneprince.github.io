@@ -7,14 +7,15 @@ We used user post and comment data from Reddit's two most popular crypo subreddi
 
 **Tools:**  
 <span style="color:grey">Python Reddit API Wrapper:</span> pull reddit comment data  
-Tidyverse/ Tidytext: [NLP] tokenization and sentiment analysis  
-Quandl: pull coin price history  
-ggplot/ plotly: viz
+<span style="color:grey">Tidyverse/ Tidytext:</span> [NLP] tokenization and sentiment analysis  
+<span style="color:grey">Quandl:</span> pull coin price history  
+<span style="color:grey">ggplot/ plotly:</span> viz
 
+*Language used: R/ Markdown*
 
 For full details see our [git repo](https://github.com/vivienneprince/MungingProj2) :-)
 
-*Language used: R/ Markdown*
+
 
 <br>  
 
