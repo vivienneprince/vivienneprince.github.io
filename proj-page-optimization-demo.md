@@ -1,99 +1,99 @@
-<span style="font-weight: bold; color: black; font-size:180%; line-height: 32px;"> Reddit Cryptocurrency Historical Sentiment vs Price  </span>  <br>
-<span style="color:darkgrey;">November 2020 &nbsp;&ndash;&nbsp; with Kalani Stanton and Tim McCormack</span>
+<span style="font-weight: bold; color: black; font-size:180%; line-height: 32px;"> Steepest Descent Optimization with optimal step size (Wolfe) and Newton's Method Demo in Python  </span>  <br>
+<span style="color:darkgrey;">November 2020 &nbsp;&ndash;&nbsp; Me</span>
 
 
 **Overview:**   
-This project used user post and comment data from Reddit's two most popular crypo subreddits. We explored change in average sentiment over time for BTC, ETH, LTC, and XRP (ripple) in context with the currencies' value.  
+I l0ve math, and was really excited to learn about optimization algorithms.   
+This google colab sheet demonstrates steepest decent algorithms using numeric approximation.
+
+**Tools:**  
+<span style="color:grey">Numpy:</span> matrix operations  
+<span style="color:grey">Matplotlib:</span> [NLP] viz  
+
+*Language used: Python*
+
+See my [demo](https://colab.research.google.com/drive/1mYGs6gZGd947kkXLKH6EVL4iYiuxAC2B?usp=sharing) here. :-D
 
 
 <br>  
 
 
-This is a time series sentiment vs price data visualization I put together for our project:  
+Here's a preview:   
+for function f(x,y) = (x+1)^2 + 8y^2 - 3x - y + 1  
 
-<img src="images/cryptograph1.jpeg?raw=true"/>  
+<img src="images/optimization-f-plot.png?raw=true"/>  
 
 
-My code:  
+Steepest descent using optimal step size:  
 
-```R
-# function for getting Coin Price/ Sentiment vs Time graph by coin 
+```Python
+def f(x, y):
+    return (x+1)**2 + 8*y**2 - 3*x - 3*y + 1
 
-get_graph <- function(coin, coeff) {   # coin = "COIN_NAME", coeff = Value used to transform sentiment to match price scale on graph
-  
-  # get related coin data
-  coinprice_data <- PricesByCoin %>% filter(Coin == coin)
-  coin_sntmntByMonth <- sntmntByMonth %>% filter(Coin == coin)
-  
-  # reshape coin price by day data to merge high, low, last, med into one variable
-  price_by_mkt_metric <- melt(coinprice_data, id = c("Date", "Coin"))
-  colnames(price_by_mkt_metric)[3] <- "Mkt_Metrics"
-  
-  # normalize x-values for both datasets (date)
-  price_by_mkt_metric$Date <- as_date(price_by_mkt_metric$Date)
-  coin_sntmntByMonth$Month <- as_date(coin_sntmntByMonth$Month)
-  
+# Initiate Q and grad_f defined by given function
+def Q():
+    return np.array([[2, 0], [0, 16]])
 
-  # make the gg plot
-  Coin_Daily_Price.plot <- price_by_mkt_metric %>%
-    filter((Mkt_Metrics %in% c("High", "Low", "Last"))) %>%
-    
-    # ggplot setup
-    ggplot(aes(x = Date)) +
-    theme_minimal() +
-    ggtitle(paste(coin, " Sentiment/ Price vs Time")) +
-    xlab("Date") +
-    theme(legend.title = element_blank())  +
-    
-    
-    # plot price vs time lines
-    geom_line(
-      stat = 'identity',
-      aes(
-        y = value,
-        linetype = Mkt_Metrics,
-        color = Mkt_Metrics,
-        size = Mkt_Metrics,
-        alpha = Mkt_Metrics)) +
-    scale_linetype_manual("Market Metrics", values = c("solid", "solid", "solid")) +
-    scale_color_manual("Market Metrics", values = c('#EF9A9A', '#C5E1A5', '#212121')) +
-    scale_size_manual("Market Metrics", values = c(1, 1, 0.3)) +
-    scale_alpha_manual("Market Metrics", values = c(0.8, 0.8, 1)) +
-    
-    
-    # plot sentiment bars (stacked)
-    geom_bar(
-      data = coin_sntmntByMonth,
-      stat = 'identity',
-      aes(
-        x = Month,
-        y = n / coeff,
-        fill = sentiment)) +
-    
-    
-    # setup y-axises
-    scale_y_continuous(name = "Price (USD)",
-                       sec.axis = sec_axis( ~ . * coeff,  name = "Sentiment (n)"))
-  
-  # convert to plotly
-  Coin_Daily_Price.plotly = ggplotly(Coin_Daily_Price.plot, tooltip = c("label","x","y"))
-  
-  # cleans up legend labels
-  for (i in 1:length(Coin_Daily_Price.plotly$x$data)) {
-    if (!is.null(Coin_Daily_Price.plotly$x$data[[i]]$name)) {
-      Coin_Daily_Price.plotly$x$data[[i]]$name =  gsub("\\(", "",
-          str_split(Coin_Daily_Price.plotly$x$data[[i]]$name, ",")[[1]][1])
-    }
-  }
-  
-  Coin_Daily_Price.plot
-  Coin_Daily_Price.plotly
 
-get_graph("BTC", 4)
-get_graph("ETH",20)
-get_graph("LTC", 19)
-get_graph("XRP", 8000)
+def grad_f(x_k, y_k):
+    # returns gradient of f at xv_k
+    return np.array([[2 * x_k - 1], [16 * y_k - 1]])
 
+# calculates dot products
+def dot_prod(a, b):
+    # computes the dot product of vectors a and b
+    if len(a) != len(b):
+        print("DOT PROD NOT DEFINED")
+    else:
+        prod = 0
+        for i in range(len(a)):
+            temp = a[i] * b[i]
+            prod = prod + temp
+    return prod
+
+
+# steepest descent algorithm
+
+def alpha(x_k, y_k):
+    return dot_prod(grad_f(x_k, y_k), grad_f(x_k, y_k)) / dot_prod(grad_f(x_k, y_k), np.matmul(Q(), grad_f(x_k, y_k)))
+
+def xv_k_1(x_k, y_k):
+    a_k = alpha(x_k, y_k)
+    grad_f_x_k, grad_f_y_k = grad_f(x_k, y_k).T[0]
+    x_k_1 = x_k - a_k * grad_f_x_k
+    y_k_1 = y_k - a_k * grad_f_y_k
+    return np.array([x_k_1, y_k_1])
+
+def steepest_desc(x_0, y_0):
+    # arrays to store descent progress at each k
+    X, Y = [x_0], [y_0]
+
+    epsilon = 10 ** (-6)
+
+    for k in range(10 ** 4):  # i want to stop after at most k = 10**4-1
+        if np.linalg.norm(grad_f(X[len(X) - 1], Y[len(Y) - 1])) >= epsilon:
+            next_X, next_Y = xv_k_1(X[len(X) - 1], Y[len(Y) - 1]).T[0]
+            X.append(next_X)
+            Y.append(next_Y)
+        else:
+            break
+    return [len(X), X, Y]
+
+# investigate convergence speed
+min_point = np.array([0.5, 1 / 16])
+starting_dist_from_min = []
+x_0_list = []
+y_0_list = []
+steps_list = []
+for x_0 in range(-5, 6):
+    for y_0 in range(-5, 6):
+        start = np.array([x_0, y_0])
+        steps = steepest_desc(x_0, y_0)[0]
+        starting_dist_from_min.append(np.linalg.norm(start - min_point))
+        steps_list.append(steps)
+        x_0_list.append(x_0)
+        y_0_list.append(y_0)
+        print("steps =", steps, "  start: (", x_0, y_0, ")")
 ```
 
 For more details see our [git repo](https://github.com/vivienneprince/MungingProj2)!
