@@ -12,7 +12,7 @@
   
 
 ---
-[**Network Algorithms Demo**](/proj-page-networks-demo)    
+[**Network Algorithms Demoooo**](/proj-page-networks-demo)    
 [<img style="padding-top: 10px" src="images/network-demo-dashboard.png?raw=true"/>](/proj-page-networks-demo)
   
 
