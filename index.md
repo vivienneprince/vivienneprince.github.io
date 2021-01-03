@@ -8,22 +8,22 @@
 
 ---
 [**Exploring Video Game Sales Data**](/proj-page-videogames)      
-<img style="padding-top: 10px" src="images/video-games-dashboard.png?raw=true"/>
+[<img style="padding-top: 10px" src="images/video-games-dashboard.png?raw=true"/>](/proj-page-videogames)
   
 
 ---
-[**Network Algorithms Demo**](http://example.com/)    
-<img style="padding-top: 10px" src="images/dummy_thumbnail.jpg?raw=true"/>
+[**Network Algorithms Demo**](/proj-page-networks-demo)    
+[<img style="padding-top: 10px" src="images/dummy_thumbnail.jpg?raw=true"/>](/proj-page-networks-demo)
   
 
 ---
 [**Reddit Cryptocurrency Sentiment Analysis**](/proj-page-crypto)  
-<img style="padding-top: 10px" src="images/cryptograph1.png?raw=true"/>
+[<img style="padding-top: 10px" src="images/cryptograph1.png?raw=true"/>](/proj-page-crypto) 
  
 
 ---
 [**College Scorecard EDA Project**](/proj-page-scorecard)  
-<img style="padding-top: 10px" src="images/scorecard-map3.gif?raw=true"/>
+[<img style="padding-top: 10px" src="images/scorecard-map3.gif?raw=true"/>](/proj-page-scorecard)
  
 
 ---
