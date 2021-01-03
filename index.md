@@ -3,7 +3,7 @@
 ---
 
 [Optimization Algorithms Demo](/proj-page-optimization-demo)  
-<img style="padding-top: 10px" src="images/dummy_thumbnail.jpg?raw=true"/>
+<img style="padding-top: 10px" src="images/optimization-dashboard.png?raw=true"/>
   
 
 ---
