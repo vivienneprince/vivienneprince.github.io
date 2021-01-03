@@ -14,26 +14,6 @@
     <![endif]-->
 
     <style>
-        #bio {
-            position: absolute;
-            background: #f6f8fa;
-            z-index: initial;
-        }
-
-        #bio-background {
-            position: absolute;
-            background-color: #f6f8fa;
-            width: 200%;
-            height: 200%;
-            z-index: -1;
-            top: -50%;
-            left: -50%
-        }
-
-        #bio-wrapper {
-            position: relative;
-            z-index: 10;
-        }
     </style>
 
 </head>
@@ -41,11 +21,12 @@
 <body style="background-color:#ffffff;">
 
 
-<div class="wrapper" id="bio-wrapper">
+<div class="wrapper" style="position: relative; z-index: 10;">
 
-    <header id="bio">
+    <header style="position: absolute; background-color: #f6f8fa; z-index: initial;">
 
-        <div id="bio-background"></div>
+        <!-- bio background element -->
+        <div style="position: absolute;background-color: #f6f8fa;width: 200%;height: 200%;z-index: -1;top: -50%;left: -50%"></div>
 
         <h1><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
