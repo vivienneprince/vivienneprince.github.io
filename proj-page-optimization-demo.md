@@ -26,7 +26,7 @@ for function f(x,y) = (x+1)^2 + 8y^2 - 3x - y + 1
 
 Steepest descent using optimal step size:  
 
-```Python
+```python
 def f(x, y):
     return (x+1)**2 + 8*y**2 - 3*x - 3*y + 1
 
