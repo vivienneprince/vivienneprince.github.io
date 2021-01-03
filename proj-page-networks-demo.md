@@ -18,13 +18,15 @@ See my [**demo**](https://colab.research.google.com/drive/1WAA5icd71fknlNu7Vo73S
 
 <br>  
 
-
+ 
 Here's a preview of the demo:
 
 <img src="images/network-demo-preview.png?raw=true"/>  
 
 
-Here's my Bellman-Ford implementation that I used to find the probablity of success for signals routed from one node to another (assuming independence):  
+<br>  
+
+My Bellman-Ford implementation that I used to find the probablity of success for signals routed from one node to another (assuming independence):  
 
 ```python
 def BFL_0(edge_list):
