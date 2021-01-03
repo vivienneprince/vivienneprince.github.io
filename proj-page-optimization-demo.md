@@ -12,7 +12,7 @@ This google colab sheet demonstrates steepest decent algorithms using numeric ap
 
 *Language used: Python*
 
-See my [demo](https://colab.research.google.com/drive/1mYGs6gZGd947kkXLKH6EVL4iYiuxAC2B?usp=sharing) here. :-D
+See my [**demo**](https://colab.research.google.com/drive/1mYGs6gZGd947kkXLKH6EVL4iYiuxAC2B?usp=sharing) here. :-D
 
 
 <br>  
