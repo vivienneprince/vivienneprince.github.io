@@ -1,10 +1,9 @@
 title: <span style="text-align:center;">vivienne prince</span> # website title
 logo: "/images/logo.png?raw=true" # logo
 description: > # your text below
-  Masters of Data Science student graduating in 2022.
-  <br><br>
-  Thanks for dropping by my page! I really enjoy learning new tools, exploring data to help solve problems, and helping others understand ideas and data.
-  <br><br>
+  Thanks for dropping by my page! <br>
+  I really enjoy learning new tools, exploring data to help solve problems, and helping others understand ideas and data.
+  <br>
 footer:
   links:
     - label: "GitHub"
