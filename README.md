@@ -4,6 +4,10 @@ Portfolio hosted on github pages I made to display some of my projects and code.
 ### Intro
 Feel free to use this as a template, and feel free to give me a shout if you run into any issues.
 
+
+### Template usage info
+vivienneprince.github.io
+>\_layouts/default.html 
 ___
 
 ### References
