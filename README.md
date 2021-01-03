@@ -13,7 +13,7 @@ Feel free to use this as a template, and feel free to give me a shout if you run
 >>>**default.html** HTML source code   
 >>>**custom_styles.css** Add your custom CSS styling here. May not always work with github pages.  
 >>>**preloader.html** \[junk] Preloader scratch code 
->
+>>
 >>**docs** folder for docs you want on your site
 >>**images** folder for images you want on your site
 >>**pages** folder for extra mkd pages
