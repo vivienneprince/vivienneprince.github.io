@@ -1,17 +1,10 @@
 title: <span style="text-align:center;">vivienne prince</span> # website title
 logo: "/images/logo.png?raw=true" # logo
 description: > # your text below
-  Thanks for dropping by my page! <br>
+  Thanks for dropping by my page! <br><br>
+  I'm a Masters of Data Science student graduating in 2022.<br><br>
   I really enjoy learning new tools, exploring data to help solve problems, and helping others understand ideas and data.
   <br>
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
 
 
 theme: jekyll-theme-minimal
