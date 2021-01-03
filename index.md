@@ -17,7 +17,7 @@
   
 
 ---
-[**Reddit Cryptocurrency Sentiment Analysis**](/proj-page-crypto)  
+[**Reddit Cryptocurrency Sentiment Analysis**](/pages/proj-page-crypto)  
 [<img style="padding-top: 10px" src="images/cryptograph1.png?raw=true"/>](/proj-page-crypto) 
  
 

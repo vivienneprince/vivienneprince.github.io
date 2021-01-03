@@ -22,7 +22,7 @@ For full details see our [git repo](https://github.com/vivienneprince/MungingPro
 
 This is a time series sentiment vs price data visualization I put together for our project:  
 
-<img src="images/cryptograph1.png?raw=true"/>  
+<img src="../images/cryptograph1.png?raw=true"/>  
 
 
 My code:  
