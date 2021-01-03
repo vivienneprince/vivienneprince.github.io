@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet_custom" href="custom_styles.css">
     <!--[if lt IE 9]>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
 
     <style>
-
     </style>
 
 </head>
@@ -25,7 +25,7 @@
 
     <header style="position: absolute; background-color: #f6f8fa; z-index: initial;">
 
-        <div id="bio-background"></div>
+        <div id="bio-background"> </div>
 
         <h1><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
@@ -46,6 +46,7 @@
             &nbsp;&bull;&nbsp;
             <a href="https://www.linkedin.com/in/vivienne-tien/">LinkedIn</a>
         </p>
+        {% endif %}
     </header>
 
 
