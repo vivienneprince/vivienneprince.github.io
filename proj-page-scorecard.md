@@ -3,7 +3,7 @@
 
 
 **Overview:**   
-An exploration of US College data  
+An exploration of US College data found at [collegescorecard.ed.gov/data/](https://collegescorecard.ed.gov/data/).   
 
 *Language used: R*
 
@@ -18,7 +18,7 @@ Here's a preview of our report:
 <img src="images/scorecard-preview.png?raw=true"/>  
 
 
-Obtaining data using the scorecard API:  
+Code I wrote to obtain data using the scorecard API:  
 
 ```R
 #Package import
