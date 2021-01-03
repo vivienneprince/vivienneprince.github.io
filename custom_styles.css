@@ -1,26 +1,18 @@
 #bio {
     position: absolute;
-    width: 100px;
-    height: 100px;
-    margin: 100px 100px;
-    background: red;
-    border: solid 1px #000;
+    background: #f6f8fa;
     z-index: initial;
 }
 
 #bio-background {
     position: absolute;
-    background-color: blue;
+    background-color: #f6f8fa;
     z-index: -1;
-    color: white;
-    width: 200px;
-    height: 200px;
     top: -50%;
     left: -50%
 }
 
 #bio-wrapper {
     position: relative;
-    background: green;
     z-index: 10;
 }

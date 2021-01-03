@@ -18,13 +18,15 @@
 
 </head>
 
-<body style="background-color:#ffffff;" >
+<body style="background-color:#ffffff;">
 
 
+<div class="wrapper" style="position: relative; z-index: 10;">
 
-<div class="wrapper" style="background-color:#f6f8fa;">
+    <header style="position: absolute; background-color: #f6f8fa; z-index: initial;">
 
-    <header style="background-color:#f6f8fa;" >
+        <div id="bio-background"></div>
+
         <h1><a href="{{ '/' | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
 
         {% if site.logo %}
@@ -72,8 +74,6 @@
     ga('send', 'pageview');
 </script>
 {% endif %}
-
-
 
 
 </body>
