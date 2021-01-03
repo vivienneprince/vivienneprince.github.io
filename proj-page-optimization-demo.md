@@ -1,4 +1,4 @@
-<span style="font-weight: bold; color: black; font-size:180%; line-height: 32px;"> Steepest Descent Optimization with optimal step size (Wolfe) and Newton's Method Demo in Python  </span>  <br>
+<span style="font-weight: bold; color: black; font-size:180%; line-height: 32px;"> Steepest Descent Optimization with Optimal Step Size (Wolfe) and Newton's Method Demo in Python  </span>  <br>
 <span style="color:darkgrey;">November 2020 &nbsp;&ndash;&nbsp; Me</span>
 
 
