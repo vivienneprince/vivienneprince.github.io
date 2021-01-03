@@ -15,7 +15,7 @@ Click here to check out our [mardown report](/docs/scorecard-report.html). :-)
 
 Here's a preview of our report:   
 
-<img src="images/scorecard-preview.png?raw=true"/>  
+<img src="../images/scorecard-preview.png?raw=true"/>  
 
 
 Code I wrote to obtain data using the scorecard API:  

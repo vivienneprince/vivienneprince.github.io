@@ -2,37 +2,37 @@
 
 ---
 
-[**Optimization Algorithms Demo**](/proj-page-optimization-demo)  
-[<img style="padding-top: 10px" src="images/optimization-dashboard.png?raw=true"/>](/proj-page-optimization-demo)
+[**Optimization Algorithms Demo**](/pages/proj-page-optimization-demo)  
+[<img style="padding-top: 10px" src="images/optimization-dashboard.png?raw=true"/>](/pages/proj-page-optimization-demo)
   
 
 ---
-[**Exploring Video Game Sales Data**](/proj-page-videogames)      
-[<img style="padding-top: 10px" src="images/video-games-dashboard.png?raw=true"/>](/proj-page-videogames)
+[**Exploring Video Game Sales Data**](/pages/proj-page-videogames)      
+[<img style="padding-top: 10px" src="images/video-games-dashboard.png?raw=true"/>](/pages/proj-page-videogames)
   
 
 ---
-[**Network Algorithms Demo**](/proj-page-networks-demo)    
-[<img style="padding-top: 10px" src="images/network-demo-dashboard.png?raw=true"/>](/proj-page-networks-demo)
+[**Network Algorithms Demo**](/pages/proj-page-networks-demo)    
+[<img style="padding-top: 10px" src="images/network-demo-dashboard.png?raw=true"/>](/pages/proj-page-networks-demo)
   
 
 ---
 [**Reddit Cryptocurrency Sentiment Analysis**](/pages/proj-page-crypto)  
-[<img style="padding-top: 10px" src="images/cryptograph1.png?raw=true"/>](/proj-page-crypto) 
+[<img style="padding-top: 10px" src="images/cryptograph1.png?raw=true"/>](/pages/proj-page-crypto) 
  
 
 ---
-[**College Scorecard EDA Project**](/proj-page-scorecard)  
-[<img style="padding-top: 10px" src="images/scorecard-map3.gif?raw=true"/>](/proj-page-scorecard)
+[**College Scorecard EDA Project**](/pages/proj-page-scorecard)  
+[<img style="padding-top: 10px" src="images/scorecard-map3.gif?raw=true"/>](/pages/proj-page-scorecard)
  
 
 ---
 ### Other projects
 
-- [Flow Networks and Airline Routes](https://github.com/vivienneprince/FlowNetworksAndAirlines)
-- [World Bank Country Indicators Summary Dashboard](https://github.com/vivienneprince/DataStorage2017)
-- [Mint Yearly Finances Summary Dashboard *(in progress)*](https://github.com/vivienneprince/MintYearlyFinancesSummary)
-- Phillips Smart Bulbs Scheduling App *(in progress)*
+- [Flow Networks and Airline Routes - github](https://github.com/vivienneprince/FlowNetworksAndAirlines)
+- [World Bank Country Indicators Summary Dashboard - github](https://github.com/vivienneprince/DataStorage2017)
+- [Mint Yearly Finances Summary Dashboard - github *(in progress)*](https://github.com/vivienneprince/MintYearlyFinancesSummary)
+- Phillips Smart Bulbs Scheduling App - github *(in progress)*
 
 
 ---

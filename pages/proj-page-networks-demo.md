@@ -21,7 +21,7 @@ See my [**demo**](https://colab.research.google.com/drive/1WAA5icd71fknlNu7Vo73S
  
 Here's a preview of the demo:
 
-<img src="images/network-demo-preview.png?raw=true"/>  
+<img src="../images/network-demo-preview.png?raw=true"/>  
 
 
 <br>  

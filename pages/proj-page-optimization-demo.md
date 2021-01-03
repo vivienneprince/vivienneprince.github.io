@@ -21,7 +21,7 @@ See my <span style="color:#steelblue;font-weight:bold;">[demo](https://colab.res
 Here's a preview:   
 for function f(x,y) = (x+1)^2 + 8y^2 - 3x - y + 1  
 
-<img src="images/optimization-f-plot.png?raw=true"/>  
+<img src="../images/optimization-f-plot.png?raw=true"/>  
 
 
 Steepest descent using optimal step size:  
