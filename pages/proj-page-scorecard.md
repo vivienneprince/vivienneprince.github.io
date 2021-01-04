@@ -7,7 +7,7 @@ An exploration of US College data found at [collegescorecard.ed.gov/data/](https
 
 *Language used: R*
 
-Click here to check out our [mardown report](/docs/scorecard-report.html). :-) 
+Click here to check out our [mardown report](/assets/docs/scorecard-report.html). :-) 
 
 
 <br>  
@@ -15,7 +15,7 @@ Click here to check out our [mardown report](/docs/scorecard-report.html). :-)
 
 Here's a preview of our report:   
 
-<img src="../images/scorecard-preview.png?raw=true"/>  
+<img src="../assets/images/scorecard-preview.png?raw=true"/>  
 
 
 Code I wrote to obtain data using the scorecard API:  

@@ -1,16 +1,16 @@
 <!--preloader styles-->
 <style>
-    .spinner-wrapper {
+    #preload-overlay {
+        text-align: center;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #f6f8fa;
-        z-index: 999999;
+        background-color: #fcfcfc;
     }
 
-    .spinner {
+    #spinner {
         width: 40px;
         height: 40px;
         position: absolute;
@@ -24,7 +24,9 @@
     }
 
     @-webkit-keyframes sk-scaleout {
-        0% {-webkit-transform: scale(0)}
+        0% {
+            -webkit-transform: scale(0)
+        }
         100% {
             -webkit-transform: scale(1.0);
             opacity: 0;
@@ -46,15 +48,15 @@
 
 
 
-<!--preloader animation-->
-<div class="spinner-wrapper">
-    <div class="spinner"></div>
+<!-- preloader -->
+<div id="preload-overlay" style="z-index: 100;">
+    <div id="spinner"></div>
 </div>
 
 
 <!--preloader fade-->
 <script>
-    jQuery(window).load(function() {
+    jQuery(window).load(function () {
         preloaderFadeOutTime = 500;
 
         function hidePreloader() {

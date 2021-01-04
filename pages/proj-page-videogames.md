@@ -1,7 +1,7 @@
 <span style="font-weight: bold; color: black; font-size:180%; line-height: 32px;">Video Game Sales Data Analysis  </span>  <br>
 <span style="color:darkgrey;">December 2020 &nbsp;&ndash;&nbsp; with Amanda Norton and Ben Weisman</span>
 
-<img src="../images/video-games-cover.png?raw=true"/>  
+<img src="../assets/images/video-games-cover.png?raw=true"/>  
 
 **Overview:**   
 As video game fans, we decided to take a look at the relationship between video game sales and various variables such as critic/ user ratings, game genre, target audience, and the like.  
@@ -13,7 +13,7 @@ We also were intrested in the distribution of these variables in our video game 
 
 *Language used: R/ Markdown*
 
-To check out our full findings, take a look at our [presentation (pdf)](/docs/presentation-video-game-sales.pdf).  
+To check out our full findings, take a look at our [presentation (pdf)](/assets/docs/presentation-video-game-sales.pdf).  
 Data cleaning/ viz code [link (github)](https://github.com/vivienneprince/VideoGameSales).
 
 
@@ -21,12 +21,12 @@ Data cleaning/ viz code [link (github)](https://github.com/vivienneprince/VideoG
 
 These are some visualizations I created for our presentation:
 
-<img src="../images/video-games-dashboard.png?raw=true"/>    
+<img src="../assets/images/video-games-dashboard.png?raw=true"/>    
 
 <br>
 Here's a test plot I did during EDA and my code:  
 
-<img src="../images/video-games-test-plot.png?raw=true"/>  
+<img src="../assets/images/video-games-test-plot.png?raw=true"/>  
 
 
 My code:  
