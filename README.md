@@ -10,14 +10,11 @@ Feel free to use this as a template, and feel free to give me a shout if you run
 >>**index.md** project summary for launchpage (markdown format)  
 >>**\_config.yml** metadata/ customizable variables that gets used in HTML source code  
 >>  
->>**docs** directory for docs you want on your site  
->>**images** directory for images you want on your site  
+>>**assets** directory for images/docs/css/js etc  
 >>**pages** directory for extra mkd pages 
 >>
->>**\_layouts** HTML stuff goes in here    
->>>**default.html** HTML source code     
->>>**custom_styles.css** Add your custom CSS styling here. May not always work with github pages.    
->>>**preloader.html** \[junk] Preloader scratch code   
+>>**\_layouts**      
+>>>**default.html** HTML source code   
  
   
 ___
