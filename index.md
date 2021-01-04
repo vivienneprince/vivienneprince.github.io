@@ -3,27 +3,27 @@
 ---
 
 [**Optimization Algorithms Demo**](/pages/proj-page-optimization-demo)  
-[<img style="padding-top: 10px" src="images/optimization-dashboard.png?raw=true"/>](/pages/proj-page-optimization-demo)
+[<img style="padding-top: 10px" src="/assets/images/optimization-dashboard.png?raw=true"/>](/pages/proj-page-optimization-demo)
   
 
 ---
 [**Exploring Video Game Sales Data**](/pages/proj-page-videogames)      
-[<img style="padding-top: 10px" src="images/video-games-dashboard.png?raw=true"/>](/pages/proj-page-videogames)
+[<img style="padding-top: 10px" src="/assets/images/video-games-dashboard.png?raw=true"/>](/pages/proj-page-videogames)
   
 
 ---
 [**Network Algorithms Demo**](/pages/proj-page-networks-demo)    
-[<img style="padding-top: 10px" src="images/network-demo-dashboard.png?raw=true"/>](/pages/proj-page-networks-demo)
+[<img style="padding-top: 10px" src="/assets/images/network-demo-dashboard.png?raw=true"/>](/pages/proj-page-networks-demo)
   
 
 ---
 [**Reddit Cryptocurrency Sentiment Analysis**](/pages/proj-page-crypto)  
-[<img style="padding-top: 10px" src="images/cryptograph1.png?raw=true"/>](/pages/proj-page-crypto) 
+[<img style="padding-top: 10px" src="/assets/images/cryptograph1.png?raw=true"/>](/pages/proj-page-crypto) 
  
 
 ---
 [**College Scorecard EDA Project**](/pages/proj-page-scorecard)  
-[<img style="padding-top: 10px" src="images/scorecard-map3.gif?raw=true"/>](/pages/proj-page-scorecard)
+[<img style="padding-top: 10px" src="/assets/images/scorecard-map3.gif?raw=true"/>](/pages/proj-page-scorecard)
  
 
 ---
