@@ -6,14 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% seo %}
-    <link rel="stylesheet" href="custom_styles.css">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
 
-<!-- preloader styles -->
+    <link rel="stylesheet" href="css/custom_styles.css">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="/js/custom-js.js"></script>
+
+    <!-- preloader styles (gitpages not loading in from css) -->
     <style>
         #preload-overlay {
             text-align: center;
@@ -39,17 +45,25 @@
         }
 
         @-webkit-keyframes sk-scaleout {
-            0% {-webkit-transform: scale(0)}
-            100% {-webkit-transform: scale(1.0);
-                opacity: 0;}
+            0% {
+                -webkit-transform: scale(0)
+            }
+            100% {
+                -webkit-transform: scale(1.0);
+                opacity: 0;
+            }
         }
 
         @keyframes sk-scaleout {
-            0% {-webkit-transform: scale(0);
-                transform: scale(0);}
-            100% {-webkit-transform: scale(1.0);
+            0% {
+                -webkit-transform: scale(0);
+                transform: scale(0);
+            }
+            100% {
+                -webkit-transform: scale(1.0);
                 transform: scale(1.0);
-                opacity: 0;}
+                opacity: 0;
+            }
         }
     </style>
 
@@ -61,14 +75,6 @@
 <div id="preload-overlay" style="z-index: 100;">
     <div id="spinner"></div>
 </div>
-
-<!--preloader fadeout-->
-<script>
-    window.setTimeout(function () {
-        jQuery("#spinner").fadeOut(500);
-        jQuery("#preload-overlay").delay(200).fadeOut(100);
-    }, 500);
-</script>
 
 <div class="wrapper" style="z-index: 10;">
 
