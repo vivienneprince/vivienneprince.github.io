@@ -38,7 +38,7 @@
 ---
 
 
-merp
+Have a good day!
 
 ---
 ##### <span style="font-weight:normal">Viv Prince 2021 - <a href="mailto:vivie.prince@gmail.com">contact</a> - <a href="https://github.com/orderedlist">theme</a> - <a href="https://github.com/evanca/quick-portfolio">template</a></span> 
