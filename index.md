@@ -29,6 +29,7 @@
 ---
 ### Other projects
 
+- [Naive Bayes Classifier Demo - Perdicting Game Outcomes - github](https://github.com/vivienneprince/LoLNBClassifierDemo)
 - [Flow Networks and Airline Routes - github](https://github.com/vivienneprince/FlowNetworksAndAirlines)
 - [World Bank Country Indicators Summary Dashboard - github](https://github.com/vivienneprince/DataStorage2017)
 - [Mint Yearly Finances Summary Dashboard - github *(in progress)*](https://github.com/vivienneprince/MintYearlyFinancesSummary)
