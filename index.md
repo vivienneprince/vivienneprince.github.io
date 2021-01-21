@@ -3,7 +3,7 @@
 ---
 
 [**Naive Bayes Machine Learning Demo**](/pages/proj-page-NB-demo)  
-[<img style="padding-top: 10px" src="/assets/images/NBDemo-LoL-pairplot.png?raw=true"/>](/pages/proj-page-optimization-demo)
+[<img style="padding-top: 10px" src="/assets/images/NBdemo-LoL-pairplot.png?raw=true"/>](/pages/proj-page-NB-demo)
 
 
 ---
