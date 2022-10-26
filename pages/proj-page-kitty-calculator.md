@@ -4,12 +4,11 @@
 <img src="../assets/images/kitty-title.png?raw=true"/>  
 
 **Overview:**   
-As video game fans, we decided to take a look at the relationship between video game sales and various variables such as critic/ user ratings, game genre, target audience, and the like.  
-We also were intrested in the distribution of these variables in our video game dataset pulled from VGChartz (video game data tracking website).
+A small nifty calculator to help players make in-game spending decisions by showing how much time they would have to save up to reach an desired amount.
 
 **Tools:**  
-<span style="color:grey">Tidyverse:</span> data cleaning/ reshaping  
-<span style="color:grey">ggplot/ plotly:</span> viz
+<span style="color:grey">HTML/CSS:</span> data cleaning/ reshaping  
+<span style="color:grey">JS:</span> calculations and
 
 *Language used: R/ Markdown*
 

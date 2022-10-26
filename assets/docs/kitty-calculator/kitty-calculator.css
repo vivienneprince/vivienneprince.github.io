@@ -1,0 +1,69 @@
+body {
+    background-color: #ffffff;
+    color: #050505;
+}
+
+fieldset{
+    border: solid 3px #EDA8CF;
+    border-radius: 5px;
+    text-align: center;
+}
+legend{
+    color:#EDA8CF;
+    font-weight: bold;
+}
+.form-field {
+    max-width: 230px; 
+    line-height: 30px;
+    display: block; 
+    margin:auto;
+}
+
+input[type=number], select{
+    padding: 2px 6px;
+    min-height: 17px;
+    vertical-align: middle;
+    border: none;
+    border-bottom: 1px solid #e1e4e8;
+    border-radius: 1px;
+    outline: none;
+
+} 
+input[type=number]:focus, select:focus{
+    border-color: #72C6C8;
+    outline: none;
+}
+
+.container-submit{
+    text-align: center;
+    align-content: center;
+}
+.button-submit {
+    background-color: #EDA8CF;
+    border: .2px solid #dbccd5;
+    border-radius: 6px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+}
+.button-submit:hover {
+  background-color: #f7fafa;
+}
+.button-submit:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}

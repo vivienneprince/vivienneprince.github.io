@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html>
-<body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+    <title>Cake Form</title>
+    <script type="text/javascript" src="js/formcalculations.js"></script>
+    <link rel="stylesheet" type="text/css" href="kitty-calculator.css" />
+</head>
+<body onload='hideTotal()'>
 
-<h1>JS Test</h1>
+<form action="" id="kittyform" onsubmit="return false;">
+    <fieldset> 
+        <legend>Kitty Cash!</legend><br>
 
-<form action="" id="earningsform" onsubmit="return false;">
-    <fieldset>
-        <legend>Kitty Cash!</legend>
-
-        <div style="max-width: 230px; line-height: 30px;">
+        <!--goalamount/ goalamountscale-->
+        <div class="form-field">
             <label for="goalamount"> Goal amount:</label>
-            <span style="float: right; clear: both;">
-            <input 
-                id="goalamount" name="goalamount"
+            <input
+                id="goalamount" name="goalamount" 
                 type="number" 
                 step="0.1" 
                 min="0.1" 
@@ -35,6 +39,7 @@
                 <option value='11'>Und</option>
                 <option value='12'>Duo</option>
                 <option value='13'>Tre</option>
+                <!--
                 <option value='14'>Quat</option>
                 <option value='15'>Quind</option>
                 <option value='16'>Sexd</option>
@@ -52,20 +57,21 @@
                 <option value='28'>Octv</option>
                 <option value='29'>Nov</option>
                 <option value='30'>Trig</option>
-            </select></span>
+                -->
+            </select>
         </div>
-            
-        <div style="max-width: 230px; line-height: 30px;">
+        
+        <!--currentearning/ currentearningscale-->
+        <div class="form-field">
             <label for="currentearning"> Earning /10s:</label>
-            <span style="float: right; clear: both;">
-            <input 
+            <input
                 id="currentearning" name="currentearning"
                 type="number" 
                 step="0.1" 
                 min="0.1" 
                 max="999.99" 
                 onchange="calculateTotal()" />
-            <select 
+            <select
                 id="currentearningscale" name="currentearningscale"
                 onchange="calculateTotal()">
                 <option value='0'>K</option>
@@ -82,6 +88,7 @@
                 <option value='11'>Und</option>
                 <option value='12'>Duo</option>
                 <option value='13'>Tre</option>
+                <!--
                 <option value='14'>Quat</option>
                 <option value='15'>Quind</option>
                 <option value='16'>Sexd</option>
@@ -99,10 +106,16 @@
                 <option value='28'>Octv</option>
                 <option value='29'>Nov</option>
                 <option value='30'>Trig</option>
-            </select></span>
+                -->
+            </select>
         </div>
 
-        <div id="totalPrice"></div>
+        <!--wait time-->
+        <div class="container-submit">
+            <div><br>ฅ^•ﻌ•^ฅ</div>
+            <input type='submit' id='submit' class="button-submit" value='Calculate!' onclick="displayTotal()"/>
+        </div>
+        <div id="waitTime"></div> 
 
     </fieldset>
 </form>
